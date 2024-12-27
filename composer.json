@@ -1,0 +1,28 @@
+{
+    "name": "codersgarden/fileencrypt",
+    "description": "This is File Encrypted Package",
+    "type": "library",
+    "license": "MIt",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Dev Codersgarden",
+            "email": "info.codersgarden@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Codersgarden\\FileEncrypt\\": "src/"
+        }
+        
+    },
+
+   "extra": {
+        "laravel": {
+            "providers": [
+               "Codersgarden\\FileEncrypt\\FileEncryptServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
